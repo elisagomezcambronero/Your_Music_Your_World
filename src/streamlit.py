@@ -1,5 +1,4 @@
 import streamlit as st
-#import src.api as sa
 import api as sa
 import cluster as cl
 import pandas as pd
@@ -55,9 +54,9 @@ elif button_clicked == "Songs features":
     st.markdown("In my ETL proyect [Project Top_Songs_Artists](https://github.com/elisagomezcambronero/Project-Top_Spotify_Songs_and_Artists) we discovered that Human taste over music can change. Using top charted songs 2020&2021 spotify list we saw that popularity characteristics values can change depending on the season.")
     st.image("../images/features_seasons.png")
 
-    st.write("🎵❄️ Winter Recommendations: Acoustic songs with lower 'Energy' and speechiness are perfect for the quiet winter season. the tranquil feeling of winter.")
+    st.write("🎵❄️ Winter Recommendations: Acoustic songs with lower 'Energy' and speechiness are perfect for the quiet winter season. ")
 
-    st.write("🎵☀️ Summer Recommendations: Songs should be songs with high 'Energy' and 'Danceability', as well as high 'Happiness' and 'Positivity'. Pop, hip-hop, and electronic music are perfect for the summer.")
+    st.write("🎵☀️ Summer Recommendations: Songs should be songs with high 'Energy' and 'Danceability', as well as high 'Happiness' and 'Positivity'.")
 
 
 
@@ -80,13 +79,11 @@ elif button_clicked == "Ticketmaster":
     st.write("Use the sidebar to fill your selection")
 
     data=pd.read_csv("../data/df_events.csv", index_col=0)
-    # Crear mapa centrado en la ubicación promedio de los eventos
+    # location of the map 
     center_lat = (39.8283 + 51.5074) / 2
     center_long = (-98.5795 + 13.4050) / 2
     m = folium.Map(location=[center_lat, center_long], zoom_start=3)
-    # Iterar sobre los datos y agregar marcadores
     for index, row in data.iterrows():
-    # Obtener información del evento
         event_name = row['event_name']
         event_location = row['event_location']
         event_lat = row['event_lat']
@@ -94,15 +91,16 @@ elif button_clicked == "Ticketmaster":
         artist = row['artist']
         url = row['url']
 
-    # Crear marcador y agregarlo al mapa
+    # label shown
         popup_html = f'<strong>{event_name}</strong><br>{artist}<br><a href="{url}" target="_blank">{url}</a>'
         popup = folium.Popup(popup_html, max_width=250)
         folium.Marker(location=[event_lat, event_long], popup=popup, tooltip=event_location).add_to(m)
 
-    # Mostrar el mapa en Streamlit
+    #show map
     folium_static(m)
     
+    #select your event 
     st.sidebar.markdown("# 🎵 Find your perfect Ticketmaster Event 🎵")
-    st.sidebar.image("image/music_icon.png")
+
 
 
