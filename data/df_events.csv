@@ -102,7 +102,7 @@
 100,PVRIS,Poppy w/ PVRIS,United States Of America,Seattle,47.576599,-122.331596,2023-08-19,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-Kfv,2023,August
 101,PVRIS,Poppy w/ PVRIS,United States Of America,San Francisco,37.793301,-122.421204,2023-08-23,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-KfZ,2023,August
 102,PVRIS,Poppy w/ PVRIS,United States Of America,Denver,39.731201,-104.970901,2023-08-30,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-oaz,2023,August
-103,PVRIS,Poppy w/ PVRIS,United States Of America,Columbus,39.965099,-83,2023-09-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-of4,2023,September
+103,PVRIS,Poppy w/ PVRIS,United States Of America,Columbus,39.965099,-83.0,2023-09-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-of4,2023,September
 104,PVRIS,Poppy & PVRIS - Godless / Goddess Tour,United States Of America,Los Angeles,34.06141494,-118.30879207,2023-08-25,35.0,55.0,https://concerts.livenation.com/poppy-pvris-godless-goddess-tour-los-angeles-california-08-24-2023/event/09005E83AECF1398,2023,August
 105,PVRIS,Poppy & PVRIS - Godless / Goddess Tour,United States Of America,Las Vegas,36.117775,-115.172576,2023-08-27,37.5,37.5,https://www.ticketmaster.com/poppy-pvris-godless-goddess-tour-las-vegas-nevada-08-26-2023/event/17005E83CE9B309F,2023,August
 106,PVRIS,Poppy & PVRIS - Godless / Goddess Tour,United States Of America,San Antonio,29.42471628,-98.49110126,2023-09-02,39.0,59.5,https://concerts.livenation.com/poppy-pvris-godless-goddess-tour-san-antonio-texas-09-01-2023/event/3A005E834DC40CF4,2023,September
@@ -398,7 +398,7 @@
 396,All Time Low,All Time Low,United States Of America,Kansas City,39.104301,-94.591904,2023-06-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdraGe,2023,June
 397,All Time Low,All Time Low,United States Of America,Milwaukee,43.037399,-87.934196,2023-06-05,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adraja,2023,June
 398,All Time Low,All Time Low,United States Of America,Pittsburgh,40.448101,-79.990898,2023-06-07,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adra1b,2023,June
-399,All Time Low,All Time Low,United States Of America,Columbus,39.965099,-83,2023-06-09,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adra1f,2023,June
+399,All Time Low,All Time Low,United States Of America,Columbus,39.965099,-83.0,2023-06-09,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adra1f,2023,June
 400,All Time Low,All Time Low,United States Of America,Stroudsburg,40.988201,-75.297401,2023-06-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdraGZ,2023,June
 401,All Time Low,All Time Low,United States Of America,Richmond,37.5411,-77.434601,2023-06-14,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdraGv,2023,June
 402,Jet,Tennessee Jet,United States Of America,Decatur,33.7715,-84.292397,2023-04-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdO-k4,2023,April
@@ -445,7 +445,7 @@
 443,Bad Omens,Bad Omens,United States Of America,Austin,30.2721,-97.742401,2023-09-02,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-kx9,2023,September
 444,Bad Omens,Bad Omens,United States Of America,Nashville,36.149399,-86.790001,2023-09-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOf_d,2023,September
 445,Bad Omens,Bad Omens,United States Of America,Boston,42.3489,-71.156502,2023-09-16,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-k8t,2023,September
-446,Bad Omens,Bad Omens,Canada,Vancouver,0,0,2023-10-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-kOA,2023,October
+446,Bad Omens,Bad Omens,Canada,Vancouver,0.0,0.0,2023-10-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-kOA,2023,October
 447,Bad Omens,Bad Omens,United States Of America,Las Vegas,36.254799,-115.526299,2023-10-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-kOa,2023,October
 448,Johnny Cash,Johnny Cash Roadshow,Great Britain,Whitley Bay,55.046455,-1.45069,2023-05-27,29.95,29.95,https://www.ticketmaster.co.uk/johnny-cash-roadshow-whitley-bay-27-05-2023/event/36005E27C8420D4F,2023,May
 449,Johnny Cash,Cash... a tribute to Johnny Cash,Great Britain,Sheffield,53.379372,-1.46807,2023-09-16,Unknown,Unknown,https://www.ticketmaster.co.uk/cash-a-tribute-to-johnny-cash-sheffield-16-09-2023/event/3E005E6FAC0C0ED2,2023,September
@@ -474,8 +474,8 @@
 472,Dayseeker,Dayseeker,Great Britain,Birmingham,52.4751658,-1.8818523,2023-05-15,Unknown,Unknown,https://www.ticketweb.uk/event/dayseeker-the-mill-tickets/12905525?REFERRAL_ID=tmfeed,2023,May
 473,Dayseeker,Dayseeker,Great Britain,London,51.534469,-0.106613,2023-05-16,15.0,15.0,https://www.ticketmaster.co.uk/dayseeker-london-16-05-2023/event/1F005E48F2B8572C,2023,May
 474,Dayseeker,Silverstein w/ Dayseeker,United States Of America,Tacoma,47.249298,-122.440002,2023-04-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjF-4,2023,April
-475,Dayseeker,Silverstein w/ Dayseeker,Canada,Edmonton,0,0,2023-04-29,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjFuO,2023,April
-476,Dayseeker,Silverstein w/ Dayseeker,Canada,Winnipeg,0,0,2023-05-02,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjFu_,2023,May
+475,Dayseeker,Silverstein w/ Dayseeker,Canada,Edmonton,0.0,0.0,2023-04-29,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjFuO,2023,April
+476,Dayseeker,Silverstein w/ Dayseeker,Canada,Winnipeg,0.0,0.0,2023-05-02,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjFu_,2023,May
 477,Dayseeker,Sleeping With Sirens w/ Dayseeker & M.A.G.S.,United States Of America,Nashville,36.164081,-86.796961,2023-05-26,35.0,136.5,https://www.ticketweb.com/event/sleeping-with-sirens-w-dayseeker-marathon-music-works-tickets/13070375,2023,May
 478,Dayseeker,Silverstein: Misery Made Me 2023,United States Of America,Grand Rapids,42.919201,-85.528603,2023-05-07,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjZ46,2023,May
 479,Dayseeker,Sleeping With Sirens: Family Tree Tour,United States Of America,Silver Spring,38.99734055,-77.02746183,2023-05-22,29.5,45.0,https://concerts.livenation.com/sleeping-with-sirens-family-tree-tour-silver-spring-maryland-05-22-2023/event/15005E74931E1A7C,2023,May
@@ -520,7 +520,7 @@
 518,Jackson Browne,Jackson Browne,United States Of America,New Orleans,29.95632359,-90.07263154,2023-07-23,55.0,150.0,https://www.ticketmaster.com/jackson-browne-new-orleans-louisiana-07-22-2023/event/1B005E642F3BBAC9,2023,July
 519,Jackson Browne,Jackson Browne,United States Of America,Mobile,30.6908223,-88.0438137,2023-07-26,44.5,144.5,https://www.ticketmaster.com/jackson-browne-mobile-alabama-07-25-2023/event/1B005E6ED9CFB8DC,2023,July
 520,Jackson Browne,Jackson Browne,United States Of America,Ft Lauderdale,26.1193,-80.149426,2023-08-02,49.5,179.5,https://www.ticketmaster.com/jackson-browne-ft-lauderdale-florida-08-01-2023/event/0D005E6D88B3A912,2023,August
-521,Jackson Browne,Jackson Browne,United States Of America,Columbus,39.965099,-83,2023-06-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOZoO,2023,June
+521,Jackson Browne,Jackson Browne,United States Of America,Columbus,39.965099,-83.0,2023-06-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOZoO,2023,June
 522,Jackson Browne,Jackson Browne,United States Of America,Pittsburgh,40.448101,-79.990898,2023-06-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOV1v,2023,June
 523,Jackson Browne,Jackson Browne,United States Of America,Toledo,41.6035,-83.629799,2023-06-08,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOZuY,2023,June
 524,Jackson Browne,Jackson Browne,United States Of America,Springfield,39.758701,-89.6325,2023-06-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOVu6,2023,June
@@ -1128,11 +1128,11 @@
 1126,Duran Duran,DURAN DURAN: FUTURE PAST,United States Of America,Chula Vista,32.58830386,-117.00640802,2023-08-23,30.0,200.0,https://concerts.livenation.com/duran-duran-future-past-chula-vista-california-08-22-2023/event/0A005E7D0E055BB0,2023,August
 1127,Duran Duran,DURAN DURAN: FUTURE PAST,United States Of America,Sacramento,38.580372,-121.500231,2023-08-25,45.95,235.95,https://www.ticketmaster.com/duran-duran-future-past-sacramento-california-08-24-2023/event/1C005E3FB0243720,2023,August
 1128,Duran Duran,DURAN DURAN: FUTURE PAST,United States Of America,Las Vegas,36.102807,-115.178313,2023-08-27,Unknown,Unknown,https://www.axs.com/events/469382/duran-duran-tickets?skin=tmobile,2023,August
-1129,The Velvet Underground,Lolo Zouai,Canada,Toronto,0,0,2023-04-24,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad_g8g,2023,April
+1129,The Velvet Underground,Lolo Zouai,Canada,Toronto,0.0,0.0,2023-04-24,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad_g8g,2023,April
 1130,The Velvet Underground,Clark,Canada,Toronto,43.6477172,-79.4014822,2023-06-18,Unknown,Unknown,https://www.ticketweb.ca/event/clark-velvet-underground-tickets/12868905?REFERRAL_ID=tmfeed,2023,June
-1131,The Velvet Underground,Bury Tomorrow,Canada,Toronto,0,0,2023-05-16,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdQ_Gp,2023,May
-1132,The Velvet Underground,Hobo Johnson,Canada,Toronto,0,0,2023-07-29,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-o14,2023,July
-1133,The Velvet Underground,Heart Attack Man,Canada,Toronto,0,0,2023-05-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOxvS,2023,May
+1131,The Velvet Underground,Bury Tomorrow,Canada,Toronto,0.0,0.0,2023-05-16,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdQ_Gp,2023,May
+1132,The Velvet Underground,Hobo Johnson,Canada,Toronto,0.0,0.0,2023-07-29,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-o14,2023,July
+1133,The Velvet Underground,Heart Attack Man,Canada,Toronto,0.0,0.0,2023-05-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOxvS,2023,May
 1134,The Velvet Underground,joe p,Canada,Toronto,43.6477172,-79.4014822,2023-04-19,Unknown,Unknown,https://www.ticketweb.ca/event/joe-p-velvet-underground-tickets/12940905?REFERRAL_ID=tmfeed,2023,April
 1135,The Velvet Underground,Wunderhorse,Canada,Toronto,43.6477172,-79.4014822,2023-05-30,Unknown,Unknown,https://www.ticketweb.ca/event/wunderhorse-velvet-underground-tickets/12958815?REFERRAL_ID=tmfeed,2023,May
 1136,The Velvet Underground,Mild Minds,Canada,Toronto,43.6477172,-79.4014822,2023-06-10,Unknown,Unknown,https://www.ticketweb.ca/event/mild-minds-velvet-underground-tickets/13085105?REFERRAL_ID=tmfeed,2023,June
@@ -1225,7 +1225,7 @@
 1223,CAKE,Cake,United States Of America,Redding,40.597698,-122.467697,2023-05-13,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOfGs,2023,May
 1224,CAKE,Cake,United States Of America,San Diego,32.7253,-117.172096,2023-06-21,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdrvoO,2023,June
 1225,CAKE,Cake,United States Of America,Salt Lake City,40.782001,-111.7519,2023-06-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-boo,2023,June
-1226,CAKE,Cake,United States Of America,New Haven,0,0,2023-07-19,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdrZOA,2023,July
+1226,CAKE,Cake,United States Of America,New Haven,0.0,0.0,2023-07-19,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdrZOA,2023,July
 1227,CAKE,Cake,United States Of America,Eugene,44.068501,-123.082001,2023-08-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOYp4,2023,August
 1228,CAKE,Cake,United States Of America,Medford,42.271099,-122.8983,2023-08-06,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdO3up,2023,August
 1229,CAKE,Makin' Cake,United States Of America,Appleton,44.262557,-88.411785,2024-02-28,26.0,26.0,https://www.ticketmaster.com/makin-cake-appleton-wisconsin-02-27-2024/event/07005E5CDE4132C9,2024,February
@@ -2269,7 +2269,7 @@
 2267,Sam Smith,Sam Smith: GLORIA the tour,United States Of America,New York,40.7497062,-73.9916006,2023-08-09,45.0,159.5,https://www.ticketmaster.com/sam-smith-gloria-the-tour-new-york-new-york-08-08-2023/event/3B005E23C88D192D,2023,August
 2268,Morgan Wallen,Morgan Wallen,United States Of America,University,34.3666,-89.5513,2023-04-23,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adjx-o,2023,April
 2269,Morgan Wallen,Morgan Wallen w/ Hardy,United States Of America,University,34.3666,-89.5513,2023-04-22,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjdqE,2023,April
-2270,Morgan Wallen,Morgan Wallen w/ Ernest,Canada,London,0,0,2023-09-18,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdQ3Ps,2023,September
+2270,Morgan Wallen,Morgan Wallen w/ Ernest,Canada,London,0.0,0.0,2023-09-18,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdQ3Ps,2023,September
 2271,Morgan Wallen,Morgan Wallen w/ Parker McCollum,United States Of America,Saint Louis,38.635101,-90.187798,2023-07-06,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdjFOk,2023,July
 2272,Morgan Wallen,Morgan Wallen w/ Parker McCollum,United States Of America,Saint Louis,38.635101,-90.187798,2023-07-07,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adj7AF,2023,July
 2273,Morgan Wallen,Morgan Wallen - One Night At a Time Tour,Great Britain,London,51.501581,0.005519,2023-12-03,56.2,460.25,https://www.ticketmaster.co.uk/morgan-wallen-one-night-at-a-london-03-12-2023/event/35005E64BCAA11EC,2023,December
@@ -2492,7 +2492,7 @@
 2490,Stephen Sanchez,Stephen Sanchez,United States Of America,Washington,38.91795,-77.02373,2023-12-09,30.0,30.0,https://www.ticketmaster.com/stephen-sanchez-washington-district-of-columbia-12-08-2023/event/15005E33B0203C44,2023,December
 2491,Stephen Sanchez,Stephen Sanchez,United States Of America,Orlando,28.370393,-81.504616,2023-12-11,25.0,75.0,https://concerts.livenation.com/stephen-sanchez-orlando-florida-12-11-2023/event/22005E33ECC5CDB2,2023,December
 2492,Stephen Sanchez,Stephen Sanchez,United States Of America,Ft Lauderdale,26.121094,-80.146162,2023-12-13,24.0,24.0,https://www.ticketmaster.com/stephen-sanchez-ft-lauderdale-florida-12-12-2023/event/0D005E344241B905,2023,December
-2493,JVKE,JVKE,Canada,Vancouver,0,0,2023-08-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adravw,2023,August
+2493,JVKE,JVKE,Canada,Vancouver,0.0,0.0,2023-08-04,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adravw,2023,August
 2494,JVKE,JVKE,United States Of America,Seattle,47.576599,-122.331596,2023-08-05,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdravV,2023,August
 2495,JVKE,JVKE,United States Of America,Portland,45.5303,-122.684799,2023-08-06,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdravU,2023,August
 2496,JVKE,JVKE,United States Of America,Portland,45.5303,-122.684799,2023-08-07,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdOv7t,2023,August
@@ -2752,9 +2752,9 @@
 2750,Bonnie Raitt,Bonnie Raitt,United States Of America,Bozeman,45.660599,-111.061996,2023-09-10,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqsGx,2023,September
 2751,Bonnie Raitt,Bonnie Raitt,United States Of America,Colorado Springs,38.832001,-104.815697,2023-09-14,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqsZI,2023,September
 2752,Bonnie Raitt,Bonnie Raitt,United States Of America,Santa Fe,35.810299,-105.986198,2023-09-18,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adqs4Z,2023,September
-2753,Bonnie Raitt,Bonnie Raitt,Canada,Penticton,0,0,2023-09-23,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqN80,2023,September
+2753,Bonnie Raitt,Bonnie Raitt,Canada,Penticton,0.0,0.0,2023-09-23,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqN80,2023,September
 2754,Bonnie Raitt,Bonnie Raitt,United States Of America,Milwaukee,43.036999,-87.916901,2023-10-11,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqYkf,2023,October
-2755,Bonnie Raitt,Bonnie Raitt w/ Royal Wood,Canada,Calgary,0,0,2023-09-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adq-Cp,2023,September
+2755,Bonnie Raitt,Bonnie Raitt w/ Royal Wood,Canada,Calgary,0.0,0.0,2023-09-26,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adq-Cp,2023,September
 2756,The Clash,London Calling Play the Clash,Great Britain,Leeds,53.809656,-1.570275,2023-11-04,Unknown,Unknown,https://www.ticketweb.uk/event/london-calling-play-the-clash-brudenell-social-club-tickets/13038745?REFERRAL_ID=tmfeed,2023,November
 2757,The Clash,Stay Free - Tribute To the Clash,Great Britain,Falkirk,56.010602,-3.786411,2023-10-28,Unknown,Unknown,https://www.ticketweb.uk/event/stay-free-tribute-depot-tickets/13059895?REFERRAL_ID=tmfeed,2023,October
 2758,The Clash,An Evening with Snooker Greats (Clash of the Titans),Great Britain,Scunthorpe,53.590439,-0.65852,2023-06-01,0.0,85.9,https://www.ticketmaster.co.uk/an-evening-with-snooker-greats-clash-scunthorpe-01-06-2023/event/36005E46ADF733D5,2023,June
@@ -2896,7 +2896,6 @@
 2894,Electric Light Orchestra,Evil Woman - The American ELO,United States Of America,Warren,41.2516411,-80.82978,2023-05-02,40.0,40.0,https://www.ticketmaster.com/evil-woman-the-american-elo-warren-ohio-05-02-2023/event/05005CECDE624E41,2023,May
 2895,Electric Light Orchestra,The ELO Tribute Show,United States Of America,Leesburg,39.115604,-77.5678328,2023-04-30,15.0,35.0,https://www.ticketweb.com/event/the-elo-tribute-show-tally-ho-theater-tickets/12831135,2023,April
 2896,Electric Light Orchestra,10cclo - the Greatest Hits of 10cc & Elo,Great Britain,Stockton-on-Tees,54.5643998,-1.3122893,2023-05-20,Unknown,Unknown,https://www.ticketweb.uk/event/10cclo-the-greatest-the-georgian-theatre-tickets/12878125?REFERRAL_ID=tmfeed,2023,May
-2897,Electric Light Orchestra,Warren Civic Music Series 2022-2023,United States Of America,Warren,41.2516411,-80.82978,2022-09-20,115.0,115.0,https://www.ticketmaster.com/warren-civic-music-series-20222023-warren-ohio-09-20-2022/event/05005CECD412480C,2022,September
 2898,d4vd,d4vd,Great Britain,Manchester,53.47014,-2.236159,2023-05-28,15.35,15.35,https://www.ticketmaster.co.uk/d4vd-manchester-28-05-2023/event/1F005E7F9FDA3130,2023,May
 2899,d4vd,d4vd,Great Britain,London,51.541642,-0.10196,2023-05-30,17.5,17.5,https://www.ticketmaster.co.uk/d4vd-london-30-05-2023/event/1F005E7F8BB70EAD,2023,May
 2900,d4vd,d4vd,United States Of America,Houston,29.78627,-95.36562,2023-06-26,22.5,22.5,https://www.ticketmaster.com/d4vd-houston-texas-06-25-2023/event/3A005E7ED46B6591,2023,June
@@ -3174,7 +3173,7 @@
 3172,Cat Power,Modest Mouse: 9th Street Summerfest,United States Of America,Columbia,38.952184,-92.327842,2023-08-14,42.5,42.5,https://www.ticketmaster.com/modest-mouse-9th-street-summerfest-columbia-missouri-08-13-2023/event/06005E70826517F5,2023,August
 3173,Cat Power,PIXIES and MODEST MOUSE - Garden Suite,United States Of America,Boise,43.602431,-116.163844,2023-09-05,130.0,130.0,https://www.ticketmaster.com/pixies-and-modest-mouse-garden-suite-boise-idaho-09-04-2023/event/1E005E76D2CF35F8,2023,September
 3174,Cat Power,PIXIES and MODEST MOUSE,United States Of America,Boise,43.602431,-116.163844,2023-09-05,60.0,190.0,https://www.ticketmaster.com/pixies-and-modest-mouse-boise-idaho-09-04-2023/event/1E005E76D4C73717,2023,September
-3175,Cat Power,Modest Mouse w/ Pixies,United States Of America,Spokane,0,0,2023-09-07,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-dZU,2023,September
+3175,Cat Power,Modest Mouse w/ Pixies,United States Of America,Spokane,0.0,0.0,2023-09-07,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Ad-dZU,2023,September
 3176,Cat Power,PIXIES and MODEST MOUSE,Canada,Vancouver,49.2607645,-123.2421803,2023-09-10,39.5,261.5,https://www.ticketmaster.ca/pixies-and-modest-mouse-vancouver-british-columbia-09-09-2023/event/11005E75BE18303E,2023,September
 3177,Cat Power,PIXIES and MODEST MOUSE,United States Of America,Napa,38.303377,-122.283646,2023-09-16,65.0,129.5,https://www.ticketmaster.com/pixies-and-modest-mouse-napa-california-09-15-2023/event/1C005E75A8C51DE3,2023,September
 3178,Cat Power,PIXIES and MODEST MOUSE,United States Of America,San Diego,32.70709659,-117.15680771,2023-09-17,51.0,51.0,https://www.ticketmaster.com/pixies-and-modest-mouse-san-diego-california-09-16-2023/event/0A005E74365C4E85,2023,September
@@ -3289,7 +3288,6 @@
 3287,The Police,Karma Police,Great Britain,Belfast,54.593513,-5.928771,2023-10-06,19.5,19.5,https://www.ticketmaster.ie/karma-police-belfast-06-10-2023/event/38005D72EC2B10D6,2023,October
 3288,The Police,Police Dog Hogan,Great Britain,Exeter,50.724815,-3.531253,2023-10-19,Unknown,Unknown,https://www.ticketweb.uk/event/police-dog-hogan-phoenix-tickets/12948035?REFERRAL_ID=tmfeed,2023,October
 3289,The Police,Police Dog Hogan,Great Britain,London,51.54378,-0.102362,2023-12-07,Unknown,Unknown,https://www.ticketweb.uk/event/police-dog-hogan-union-chapel-tickets/12969025?REFERRAL_ID=tmfeed,2023,December
-3290,The Police,Joan As Police Woman,Ireland,Galway,53.270087,-9.058145,2022-07-17,31.5,31.5,https://www.ticketmaster.ie/joan-as-police-woman-galway-17-07-2022/event/1800593C9BC8158A,2022,July
 3291,The Police,Stewart Copeland's Police Deranged for Orchestra,Great Britain,London,51.509921,-0.126308,2023-04-28,Unknown,Unknown,https://theatre.ticketmaster.co.uk/book/1F2RU-stewart-copeland-the-police-deranged-for-orchestra/#perf=1F2RU-2&date=2023-04-28&time=7.30PM,2023,April
 3292,The Police,Stewart Copeland: Police Deranged for Orchestra,United States Of America,Waukegan,42.36276392,-87.83083839,2023-05-20,39.0,89.0,https://www.ticketmaster.com/stewart-copeland-police-deranged-for-orchestra-waukegan-illinois-05-19-2023/event/07005E3FBF1D23A1,2023,May
 3293,The Police,"FRENCH POLICE w/ Closed Tear, Lesser Care, & Dj Fn1 + Dj Eser",United States Of America,Los Angeles,34.0473,-118.24799,2023-09-10,20.0,20.0,https://www.ticketmaster.com/french-police-w-closed-tear-lesser-los-angeles-california-09-09-2023/event/09005E8EDC5B3CAD,2023,September
@@ -3500,7 +3498,7 @@
 3498,LCD Soundsystem,LCD Soundsystem | Re:set,United States Of America,Columbia,39.209019,-76.862583,2023-06-18,99.5,129.5,https://www.ticketmaster.com/lcd-soundsystem-reset-columbia-maryland-06-18-2023/event/15005E2DBB093777,2023,June
 3499,LCD Soundsystem,Re:Set Concert Series w/ LCD Soundsystem,United States Of America,Grand Prairie,32.773998,-97.005203,2023-06-11,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1Adr7e8,2023,June
 3500,LCD Soundsystem,Re:Set Concert Series w/ LCD Soundsystem,United States Of America,Forest Hills,40.722801,-73.845001,2023-06-16,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdreuE,2023,June
-3501,LCD Soundsystem,Re:Set Concert Series w/ LCD Soundsystem,United States Of America,Columbus,39.965099,-83,2023-06-24,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqyZ9,2023,June
+3501,LCD Soundsystem,Re:Set Concert Series w/ LCD Soundsystem,United States Of America,Columbus,39.965099,-83.0,2023-06-24,Unknown,Unknown,https://www.ticketmaster.com/event/Z7r9jZ1AdqyZ9,2023,June
 3502,Frank Sinatra,Sunday Jazz Lunch with Frank Sinatra By Stephen Triffitt,Great Britain,London,51.505252,-0.022271,2023-04-23,Unknown,Unknown,https://www.ticketweb.uk/event/sunday-jazz-lunch-with-frank-boisdale-canary-wharf-tickets/13148758?REFERRAL_ID=tmfeed,2023,April
 3503,Frank Sinatra,Sunday Jazz Lunch with Frank Sinatra By Stephen Triffitt,Great Britain,London,51.505252,-0.022271,2023-04-30,Unknown,Unknown,https://www.ticketweb.uk/event/sunday-jazz-lunch-with-frank-boisdale-canary-wharf-tickets/13069805?REFERRAL_ID=tmfeed,2023,April
 3504,Frank Sinatra,Sunday Jazz Lunch with Frank Sinatra By Stephen Triffitt,Great Britain,London,51.505252,-0.022271,2023-05-14,Unknown,Unknown,https://www.ticketweb.uk/event/sunday-jazz-lunch-with-frank-boisdale-canary-wharf-tickets/12813585?REFERRAL_ID=tmfeed,2023,May
@@ -3776,10 +3774,6 @@
 3774,Sex Pistols,Sex Pistols Expose,Great Britain,Northampton,52.240227,-0.897373,2023-08-11,Unknown,Unknown,https://www.ticketweb.uk/event/sex-pistols-expose-roadmender-tickets/12944475?REFERRAL_ID=tmfeed,2023,August
 3775,Sex Pistols,Sex Pistols Expose,Great Britain,Bishop's Stortford,51.872289,0.158172,2023-09-23,Unknown,Unknown,https://www.ticketweb.uk/event/sex-pistols-expose-the-half-moon-tickets/13144588?REFERRAL_ID=tmfeed,2023,September
 3776,Sex Pistols,Sex Pistols Expose,Great Britain,Stockton-on-Tees,54.5643998,-1.3122893,2023-10-27,Unknown,Unknown,https://www.ticketweb.uk/event/sex-pistols-expose-the-georgian-theatre-tickets/12947815?REFERRAL_ID=tmfeed,2023,October
-3777,Midnight Oil,a day on the green - Midnight Oil - Resist Tour (Reserved & GA),Australia,Waurn Ponds,-38.217442,144.245224,2030-01-01,Unknown,Unknown,https://www.ticketmaster.com.au/a-day-on-the-green-midnight-waurn-ponds-01-01-2030/event/13005B7E8B2F7A3C,2030,January
-3778,Midnight Oil,a day on the green - Midnight Oil - Resist Tour (Reserved & GA),Australia,Orange,-33.255914,149.005086,2030-01-01,Unknown,Unknown,https://www.ticketmaster.com.au/a-day-on-the-green-midnight-orange-01-01-2030/event/13005B7E8B1E7A37,2030,January
-3779,Midnight Oil,a day on the green - Midnight Oil - Resist Tour (Reserved & GA),Australia,Wahgunyah,-36.009314,146.413124,2030-01-01,Unknown,Unknown,https://www.ticketmaster.com.au/a-day-on-the-green-midnight-wahgunyah-01-01-2030/event/13005B7E8B107A34,2030,January
-3780,Midnight Oil,a day on the green - Midnight Oil - Resist Tour (Member's VIP),Australia,Orange,-33.255914,149.005086,2030-01-01,Unknown,Unknown,https://www.ticketmaster.com.au/a-day-on-the-green-midnight-orange-01-01-2030/event/13005B7E8B697A45,2030,January
 3781,Jimmy Buffett,Jimmy Buffett,United States Of America,San Diego,32.78451,-117.1212,2023-05-07,35.5,200.5,https://www.ticketmaster.com/jimmy-buffett-san-diego-california-05-06-2023/event/0A005CD2B2D148B1,2023,May
 3782,Jimmy Buffett,GREAT Theatre presents: Jimmy Buffett's Escape to Margaritaville,United States Of America,Waite Park,45.5448,-94.238373,2023-07-19,48.0,62.5,https://www.ticketmaster.com/great-theatre-presents-jimmy-buffetts-escape-waite-park-minnesota-07-18-2023/event/06005E6DDA093191,2023,July
 3783,Jimmy Buffett,GREAT Theatre presents: Jimmy Buffett's Escape to Margaritaville,United States Of America,Waite Park,45.5448,-94.238373,2023-07-20,48.0,62.5,https://www.ticketmaster.com/great-theatre-presents-jimmy-buffetts-escape-waite-park-minnesota-07-19-2023/event/06005E6DDB353235,2023,July
@@ -3887,7 +3881,6 @@
 3885,Manuel Turizo,Nicky Jam + Manuel Turizo - Concert Music Festival,Spain,Chiclana de la Frontera,36.39397,-6.20735,2023-07-07,71.5,2200.0,https://www.ticketmaster.es/event/nicky-jam--manuel-turizo-concert-music-festival-tickets/34233?language=en-us,2023,July
 3886,Junior H,Junior H Y Natanael Cano 'disfruto Lo Malo' En Vivo!,United States Of America,Ontario,34.075329,-117.566364,2023-05-07,59.0,399.0,https://www.ticketmaster.com/junior-h-y-natanael-cano-disfruto-ontario-california-05-06-2023/event/09005E55E3F52D72,2023,May
 3887,Jean Knight,The Michael Austin Bey Project,United States Of America,Akron,41.08072105,-81.51970837,2023-05-27,20.0,20.0,https://www.ticketmaster.com/the-michael-austin-bey-project-akron-ohio-05-26-2023/event/05005E69BB54477A,2023,May
-3888,Jean Knight,UCF Knights Womens Basketball vs. SMU Mustangs Womens Basketball,United States Of America,Orlando,28.6064557,-81.1985302,2025-01-30,5.0,5.0,https://www.ticketmaster.com/ucf-knights-womens-basketball-vs-smu-orlando-florida-01-30-2025/event/22005D46AC62B8F3,2025,January
 3889,Huey Lewis & The News,Power Of Love: Tribute to Huey Lewis and the News,United States Of America,Leesburg,39.115604,-77.5678328,2023-08-12,15.0,35.0,https://www.ticketweb.com/event/power-of-love-tribute-to-tally-ho-theater-tickets/13117765,2023,August
 3890,Huey Lewis & The News,Workin' For A Livin' - The Huey Lewis and The News Tribute Show,United States Of America,Pawling,41.5341,-73.58431,2023-05-06,20.0,30.0,https://www.ticketweb.com/event/workin-for-a-livin-daryls-house-tickets/12416345,2023,May
 3891,Sam Cooke,The Sam Cooke Story,United States Of America,Dallas,32.7812614,-96.8019332,2023-08-12,45.0,65.0,https://www.ticketmaster.com/the-sam-cooke-story-dallas-texas-08-12-2023/event/0C005E4FBCFA3693,2023,August

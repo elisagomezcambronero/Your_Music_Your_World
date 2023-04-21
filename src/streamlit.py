@@ -27,6 +27,7 @@ st.sidebar.markdown("---")
 if button_clicked == "Introduction":
     st.markdown("<h4 style='text-align: center;'><i> Music is a powerful form of expression and a window into our souls </i></h4>", unsafe_allow_html=True)
     st.image("../images/Portada.jpg")
+    st.write("🎧🔍 This project analyzes your music preferences using data from your liked songs on Spotify and creates personalized playlists for two different moods: 🕯️ tranquil and melancholic, and 💃 motivated and cheerful. It also suggests concerts in your area featuring your favorite artists using the 🎫 Ticketmaster API.")
 
 
 elif button_clicked == "Liked Songs Clusters":
@@ -47,9 +48,9 @@ elif button_clicked == "Liked Songs Clusters":
         with expander:
             st.write(definition)
 
-    st.write("🎵❄️ Melancolic Recommendations: Acoustic songs with lower 'Energy' and speechiness are perfect for the quiet winter season. ")
+    st.write("🎵🌧️ Melancholic Recommendations: Acoustic songs with lower 'Energy' and speechiness are perfect for the quiet and melancolic mood.")
 
-    st.write("🎵☀️ Happy Recommendations: Songs should be songs with high 'Energy' and 'Danceability', as well as high 'Happiness' and 'Positivity'.")
+    st.write("🎵☀️ Happy Recommendations: Songs with high 'Energy', as well as high 'Happiness' and 'Positivity' are perfect for a happy  mood to get you up and dancing.")
 
     df=pd.read_csv("../data/songs_you_like_clusterfeatures.csv", index_col=0)
     features = ['Danceability', 'Energy','Loudness', 'Speechiness', 'Acousticness', 'Valence']
