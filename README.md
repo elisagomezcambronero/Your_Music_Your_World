@@ -17,14 +17,14 @@ In addition to recommending playlists, the application also uses the [Ticketmast
 ---
 This proyect is structured with the following folders:
 
-- ![Data folder](data): Contains all the dataset files used for this project.
-- Images folder: you will find all the images related to this project.
+- [Data folder](data): Contains all the dataset files used for this project.
+- [Images folder](folder): you will find all the images related to this project.
 - Notebook folder: inside this folder you will find the following jupyter notebooks: 
-    - *Spotify Songs you Like*: notebook that connects to spotify to extract you liked songs information dataset.  
-    - *Clustering by Features*: notebook for the clustering of liked songs on Spotify.
-    - *Create Spotify Playlist* : Notebook that connects to your spotify to create your clustered playlist.
-    - *Ticketmaster*: Notebook that extracts the information of ticketmaster events related to your liked artists.
-- src: a .py file with functions used in this project:
+    - [*Spotify Songs you Like*](notebook/Spotipy%20Songs_you_like.ipynb): notebook that connects to spotify to extract you liked songs information dataset.  
+    - [*Clustering by Features*](notebook/Clustering%20by%20features.ipynb): notebook for the clustering of liked songs on Spotify.
+    - [*Create Spotify Playlist*](notebook/Create%20Spotify%20Playlist.ipynb) : Notebook that connects to your spotify to create your clustered playlist.
+    - [*Ticketmaster*](notebook/Ticketmaster.ipynb): Notebook that extracts the information of ticketmaster events related to your liked artists.
+- [src](src): a .py file with functions used in this project:
     - *cluster*: functions for *Clustering by Features* notebook.
     - *playlist*: functions for *Spotify Songs you Like & Ticketmaster* notebook.
     - *ticketmaster*: functions for *Ticketmaster * notebook.
@@ -54,12 +54,17 @@ The result of the metric distribution was as follows:
 
 ## Searching for events on Ticketmaster
 ---
-![](images/Ticketmaster.png)
+![](images/ticketmaster.png)
 Based on the data previously extracted from Spotify, the artists with related events were analyzed first, and then displayed in the tool used to visualize this project: Streamlit. There, you can filter by characteristics to find events that may interest you.
 
 ## Visualisation
 ___
 This project will be presented using the Streamlit visualization tool. Firstly, you will find a summary of the previously explained analysis, followed by a section where you can view the events that interest you. The Streamlit app is structured with a sidebar where you can navigate through different pages of the analysis and filter events.
+
+
+## Acknowledgements 
+---
+I would like to thank Ironhack, Tech School, and especially my teachers Ana and Jean-Charles, as well as my project tutor Cesar, for providing me with the knowledge, tools, and assistance to make this project possible. Also for making me discover the amazing world of data science!
 
 ## Tools
 ---
@@ -89,7 +94,4 @@ Other Tools:
 
 
 
-## Acknowledgements 
----
-I would like to thank Ironhack, Tech School, and especially my teachers Ana and Jean-Charles, as well as my project tutor Cesar, for providing me with the knowledge, tools, and assistance to make this project possible. Also for making me discover the amazing world of data science!
 

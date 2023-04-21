@@ -20,19 +20,16 @@ st.markdown("<h1 style='text-align: center; color: #1DB954;'> Your Music Your Wo
 st.markdown("---")
 
 st.sidebar.markdown("<h1 style='text-align: center; color: #1DB954;'>Index</h1>", unsafe_allow_html=True)
-nav_buttons = ["Introduction", "Songs features","Liked Songs Clusters", "Ticketmaster"]
+nav_buttons = ["Introduction", "Liked Songs Clusters", "Ticketmaster"]
 button_clicked = st.sidebar.radio("", nav_buttons)
 
 st.sidebar.markdown("---")
 if button_clicked == "Introduction":
     st.markdown("<h4 style='text-align: center;'><i> Music is a powerful form of expression and a window into our souls </i></h4>", unsafe_allow_html=True)
     st.image("../images/Portada.jpg")
-    st.markdown("This project focuses on analyzing your music preferences by extracting information from your liked songs on Spotify and creating playlists based on clusters of features songs. The application recommends seasonal playlists, such as winter, summer, autumn, and spring, based on the features of the songs you like.")
-    st.markdown("In addition to recommending playlists, the application also uses the Ticketmaster API to suggest concerts in your area that feature your favorite artists. This feature allows you to attend concerts that match your musical preferences.")
-    st.markdown("This project provides a personalized experience that caters to your musical tastes and interests, allowing you to discover new playlists and attend concerts that you are sure to enjoy.")
 
 
-elif button_clicked == "Songs features":
+elif button_clicked == "Liked Songs Clusters":
     st.markdown("<h4 style='text-align: center;'> Spotify Songs Features </h4>", unsafe_allow_html=True)
     st.markdown("First lets understand songs features:")
     features = {
@@ -49,17 +46,11 @@ elif button_clicked == "Songs features":
         expander = st.expander(feature)
         with expander:
             st.write(definition)
-    st.markdown("<h4 style='text-align: center;'> Does popular taste change over the year? </h4>", unsafe_allow_html=True)            
-    st.markdown("In my ETL proyect [Project Top_Songs_Artists](https://github.com/elisagomezcambronero/Project-Top_Spotify_Songs_and_Artists) we discovered that Human taste over music can change. Using top charted songs 2020&2021 spotify list we saw that popularity characteristics values can change depending on the season.")
-    st.image("../images/features_seasons.png")
 
-    st.write("🎵❄️ Winter Recommendations: Acoustic songs with lower 'Energy' and speechiness are perfect for the quiet winter season. ")
+    st.write("🎵❄️ Melancolic Recommendations: Acoustic songs with lower 'Energy' and speechiness are perfect for the quiet winter season. ")
 
-    st.write("🎵☀️ Summer Recommendations: Songs should be songs with high 'Energy' and 'Danceability', as well as high 'Happiness' and 'Positivity'.")
+    st.write("🎵☀️ Happy Recommendations: Songs should be songs with high 'Energy' and 'Danceability', as well as high 'Happiness' and 'Positivity'.")
 
-
-
-elif button_clicked == "Liked Songs Clusters":
     df=pd.read_csv("../data/songs_you_like_clusterfeatures.csv", index_col=0)
     features = ['Danceability', 'Energy','Loudness', 'Speechiness', 'Acousticness', 'Valence']
     st.markdown("<h1 style='text-align: center;'> Connect to your Spotify 🤍 Songs </h1>", unsafe_allow_html=True)
@@ -70,8 +61,8 @@ elif button_clicked == "Liked Songs Clusters":
     st.pyplot(fig)
     
     if st.button("Create playlist"):
-        st.image("images/Sunshine_State_of_Mind.png", caption="Sunshine State of Mind")
-        st.image("images/Echoes_of_solitude.png", caption="Echoes of Solitude")
+        st.image("../images/Sunshine_State_of_mind.png", caption="Sunshine State of Mind")
+        st.image("../images/Echoes_of_solitude.png", caption="Echoes of Solitude")
 
 elif button_clicked == "Ticketmaster":
     st.image("../images/ticketmaster.png")
