@@ -26,9 +26,9 @@ def your_artist_ticketmaster(artistas, token):
     df = pd.DataFrame({"artist": list(dict_event.keys()), "number_concerts": list(dict_event.values())})
     return df
 
-def tu_request_ticketmaster(artistas, token):
+def tu_request_ticketmaster(artistas, token): 
     #info to be added in the dataset
-    dict_event = {"event_name": [], "event_location": [], "event_lat": [], "event_long": [], "event_date": [], "event_min_price": [], "event_max_price": [], "artist": [], "url":[]}
+    dict_event = {"event_name": [], "event_country": [], "event_city": [], "event_lat": [], "event_long": [], "event_date": [], "event_min_price": [], "event_max_price": [], "artist": [], "url":[]}
     url = "https://app.ticketmaster.com/discovery/v2/events/"
     for artista in artistas:
         params = {"keyword": artista, "apikey": token}   
@@ -40,7 +40,8 @@ def tu_request_ticketmaster(artistas, token):
                 # Select elements from api 
                 for event in api_events:
                     event_name = event["name"]
-                    event_location = event["_embedded"]["venues"][0]["city"]["name"]
+                    event_city = event["_embedded"]["venues"][0]["city"]["name"]
+                    event_country = event["_embedded"]["venues"][0]["country"]["name"]
                     event_lat = None
                     event_long = None
                     event_date = datetime.datetime.strptime(event["dates"]["start"]["dateTime"], '%Y-%m-%dT%H:%M:%S%z')
@@ -58,7 +59,8 @@ def tu_request_ticketmaster(artistas, token):
                             event_min_price = price_range.get("min")
                             event_max_price = price_range.get("max")
                     dict_event["event_name"].append(event_name)
-                    dict_event["event_location"].append(event_location)
+                    dict_event["event_country"].append(event_country)
+                    dict_event["event_city"].append(event_city)
                     dict_event["event_lat"].append(event_lat)
                     dict_event["event_long"].append(event_long)
                     dict_event["event_date"].append(event_date)

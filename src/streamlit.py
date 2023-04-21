@@ -1,5 +1,4 @@
 import streamlit as st
-import api as sa
 import cluster as cl
 import pandas as pd
 import spotipy
@@ -64,43 +63,58 @@ elif button_clicked == "Liked Songs Clusters":
     df=pd.read_csv("../data/songs_you_like_clusterfeatures.csv", index_col=0)
     features = ['Danceability', 'Energy','Loudness', 'Speechiness', 'Acousticness', 'Valence']
     st.markdown("<h1 style='text-align: center;'> Connect to your Spotify 🤍 Songs </h1>", unsafe_allow_html=True)
-    if st.button("Correlations between features"):
-        corr_fig = cl.heatmap_correlation_features(df, features)
-        st.sidebar.pyplot(corr_fig)
+    
         
     cluster_stats= pd.read_csv("../data/cluster_stats.csv", index_col = 0 )
     fig=cl.radar_plot(cluster_stats)
     st.pyplot(fig)
+    
+    if st.button("Create playlist"):
+        st.image("images/Sunshine_State_of_Mind.png", caption="Sunshine State of Mind")
+        st.image("images/Echoes_of_solitude.png", caption="Echoes of Solitude")
 
 elif button_clicked == "Ticketmaster":
     st.image("../images/ticketmaster.png")
-    st.markdown("## Find your perfect Ticketmaster Event ")
     st.sidebar.markdown("#  Choose your perfect Ticketmaster Event ")
     st.write("Use the sidebar to fill your selection")
 
-    data=pd.read_csv("../data/df_events.csv", index_col=0)
-    # location of the map 
-    center_lat = (39.8283 + 51.5074) / 2
-    center_long = (-98.5795 + 13.4050) / 2
+    df_events=pd.read_csv("../data/df_events.csv", index_col=0)
+    
+    #select your event 
+    st.markdown("## Find your perfect Ticketmaster Event ")
+    #select country
+    selected_country = st.sidebar.selectbox("Select a Country", df_events["event_country"].unique())
+    filtered_df = df_events[df_events["event_country"] == selected_country]
+    #select year date
+    selected_year = st.sidebar.selectbox("Select a Year", df_events[df_events["event_country"] == selected_country]["year"].unique())
+    selected_month = st.sidebar.selectbox("Select a Month", df_events[df_events["event_country"] == selected_country][df_events["year"] == selected_year]["month"].unique())
+
+    filtered_df = filtered_df[filtered_df["year"] == selected_year]
+    filtered_df = filtered_df[filtered_df["month"] == selected_month]
+
+    #center the map
+    center_lat = filtered_df["event_lat"].mean()
+    center_long = filtered_df["event_long"].mean()
     m = folium.Map(location=[center_lat, center_long], zoom_start=3)
-    for index, row in data.iterrows():
+    for index, row in filtered_df.iterrows():
         event_name = row['event_name']
-        event_location = row['event_location']
+        event_city = row['event_city']
         event_lat = row['event_lat']
         event_long = row['event_long']
         artist = row['artist']
         url = row['url']
-
-    # label shown
+    
+        # label shown
         popup_html = f'<strong>{event_name}</strong><br>{artist}<br><a href="{url}" target="_blank">{url}</a>'
         popup = folium.Popup(popup_html, max_width=250)
-        folium.Marker(location=[event_lat, event_long], popup=popup, tooltip=event_location).add_to(m)
+        folium.Marker(location=[event_lat, event_long], popup=popup, tooltip=event_city).add_to(m)
 
-    #show map
+    # Mostrar el mapa
     folium_static(m)
-    
-    #select your event 
-    st.sidebar.markdown("# 🎵 Find your perfect Ticketmaster Event 🎵")
+
+
+
+
 
 
 

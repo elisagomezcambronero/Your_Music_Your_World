@@ -63,9 +63,9 @@ def spotify_uri(song_id):
 
 def replace_clusters(column_clusters):
     if column_clusters == 0:
-        return "Summer"
+        return "Sunshine State of Mind"
     elif column_clusters == 1:
-        return "Winter"
+        return "Echoes of Solitude"
     else:
         return column_clusters
 
@@ -79,7 +79,7 @@ def create_cluster_playlists(df, user_id, client_id, client_secret, redirect_uri
         uris = df[df["Cluster_features"] == cluster]["Id"].tolist()
 
         # Create playlist
-        playlist_name = f"Cluster {cluster} Playlist"
+        playlist_name = f"{cluster}"
         sp.user_playlist_create(user=user_id, name=playlist_name)
 
         # Add songs to playlist
