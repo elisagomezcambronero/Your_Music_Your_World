@@ -33,10 +33,10 @@ This proyect is structured with the following folders:
 
 ## Data Extraction
 ---
-For this proyect the following APIs were use in order to extract relevant information for the analysis:
+For this project, the following APIs were used to extract relevant information for the analysis:
 
 - Spotify: **"Songs You Like"**
-This dataset includes information about liked songs using [Spotify API](https://developer.spotify.com/)
+This dataset includes information about your liked songs using [Spotify API](https://developer.spotify.com/)
 
 - Ticketmaster: **"df_events"**
 This dataset includes information about ticketmaster events related to your Spotify liked artists using [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/#anchor_find)
