@@ -55,11 +55,14 @@ The result of the metric distribution was as follows:
 ## Searching for events on Ticketmaster
 ---
 ![](images/ticketmaster.png)
+
+
 Based on the data previously extracted from Spotify, the artists with related events were analyzed first, and then displayed in the tool used to visualize this project: Streamlit. There, you can filter by characteristics to find events that may interest you.
 
 ## Visualisation
 ___
 This project will be presented using the Streamlit visualization tool. Firstly, you will find a summary of the previously explained analysis, followed by a section where you can view the events that interest you. The Streamlit app is structured with a sidebar where you can navigate through different pages of the analysis and filter events.
+![](images/streamlit.png)
 
 
 ## Acknowledgements 
